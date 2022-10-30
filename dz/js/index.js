@@ -217,8 +217,9 @@ const inputMinute = Number(prompt("Введіть кількість хвили�
 const resultMinute = inputMinute * 60;
 const kvMinute = alert("Кількість секунд у хвилин = " + resultMinute);
 
-const greeting = 'Hello';
-const userName = 
+const greeting = "Hello, ";
+const userName = prompt("Введіть Ім'я");
+const kvName = alert(greeting + userName);
 
 // const y = "Htllo!";
 // const x = "2";
